@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markup Languages Project</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		table, th{
+			border: 1px solid black;
+		}
+		#main {
+			background-color: gray;
+		}
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1>Czech University of Life Sciences</h1>
+		<h2>Markup Languages XML project</h2>
+		<h3>Table of Content</h3>
+		<ol>
+			<li><a title="Go to this section" href="#intro">Introduction</a></li>
+			<li><a title="Go to this section" href="#tech">Methodology – used technologies</a></li>
+			<li><a title="Go to this section" href="#content">Work content</a></li>
+			<li><a title="Go to this section" href="#elements">Elements description</a></li>
+			<li><a title="Go to this section" href="#transform">Transformation description</a></li>
+			<li><a title="Go to this section" href="#conclusion">Conclusion</a></li>
+		</ol>
+	</header>
+	<article>
+		<br>
+		<br>
+		<h3><a id="intro">Introduction</a></h3>
+			<p>
+				This project is representing a list of applications that applicants sent to Czech foreign policy in order to prolong Czech longterm visa. In this sample there are 5 applicants as it was required in the project description. This list could be processed and used by different software, such as an administrating software for the Czech Foreign Ministry. When they want to check some applicants, where they have registered, have they some changes in first name or last name, were some restrictions on them. These things can be showed by processing the data from my XML file. The project is available on <a href="https://github.com/vpukha/visaPermissionApp">https://github.com/vpukha/visaPermissionApp.</a>
+			</p>
+		<br>
+		<h3><a id="tech">Methodology – used technologies</a></h3>
+			<p>As required in this project, I used:</p>
+				<ul>
+					<li><a title="XML w3school" href="http://www.w3schools.com/xml/">XML</a></li>
+					<li><a title="XML Schema w3school" href="http://www.w3schools.com/xml/schema_intro.asp">XML Schema</a></li>
+					<li><a title="HTML w3school" href="http://www.w3schools.com/html/default.asp">HTML</a></li>
+					<li><a title="XSL Wikipedia" href="https://en.wikipedia.org/wiki/XSL">XSL</a></li>
+					<li><a title="XSLT Wikipedia" href="https://en.wikipedia.org/wiki/XSLT">XSLT</a></li>
+				</ul>			
+			<p>
+			Everything was validated by means of <a title="Go to W3C Validator" href="http://validator.w3.org/">W3C Online Validator</a>
+			</p>
+		<br>
+		<h3><a id="content">Work content</a></h3>
+			<p>This project consists of 5 files:</p>
+				<dl>
+					<dt>XML file</dt>
+					<dd>Comprises the main content of the project</dd>
+					<dt>XML Schema file</dt>
+					<dd>Describe the structure of the XML document above</dd>
+					<dt>XSL Transformation file</dt>
+					<dd>Style sheet for XML</dd>
+					<dt>HTML file</dt>
+					<dd>Contains the transforamtion from XML to an HTML table</dd>
+				</dl>			
+		<br>
+		<h3><a id="elements">Elements description</a></h3>
+			<p>
+				The root element in XML is &lt;applications&gt;. It contains five children elements called &lt;applicant&gt; with different id's.
+			</p>
+			<p>Each &lt;applicant&gt; element contains:</p>
+				<section>
+					<h4>Consular office</h4>
+						<ul>
+							<li>&lt;country&gt;</li>
+							<li>&lt;city&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>
+				<section>
+					<h4>Basic information</h4>
+						<ul>
+							<li>&lt;firstname&gt;</li>
+							<li>&lt;lastname&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>
+				<section>
+					<h4>Additional information</h4>
+						<ul>
+							<li>&lt;full_placeofbirth&gt;</li>
+							<li>&lt;nationality&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>
+				<section>
+					<h4>Registration where living</h4>
+						<ul>
+							<li>&lt;placeofRegistration&gt;</li>
+							<li>&lt;temporaryRegistration&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>
+				<section>
+					<h4>Purpose and documents</h4>
+						<ul>
+							<li>&lt;IDforAbroad&gt;</li>
+							<li>&lt;purpuseOfstay&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>
+				<section>
+					<h4>Additional information</h4>
+						<ul>
+							<li>&lt;purposeIsProofed&gt;</li>
+							<li>&lt;restrictions&gt;</li>
+							<li>etc.</li>
+						</ul>
+				</section>			
+		<br>
+		<h3><a id="transform">Transformation description</a></h3>
+			<p>
+				XSL was used in order to transform XML file data into HTML table is showing a list of applicants sorted by their last names in alphabetic order.
+			</p>
+			<p>
+				Applicants which have a proofed visa are highlited with green color, others with red.
+			</p>
+				<section>
+				<h4>Example of the table</h4>
+                <table>
+                    <tr id="main">
+                        <th>Last Name</th>
+                        <th>First Name</th>
+                        <th>Purpose of stay</th>
+                        <th>Gender</th>
+                        <th>Date of Birth</th>
+                        <th>Proofed</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>Abdullaeva</td>
+                        <td>Anna</td>
+                        <td>
+                            Work visa
+                            Czech Republic
+                        </td>
+                        <td>famale</td>
+                        <td>12.05.1990</td>
+                        <td style="background-color:red">21.09.2010</td>
+                        <td>777 456 234</td>
+                        <td>Vlkova</td>
+                    </tr>
+                    <tr>
+                        <td>Butenko</td>
+                        <td>Elizaveta</td>
+                        <td>
+                            Student visa
+                            Czech Republic
+                        </td>
+                        <td>female</td>
+                        <td>23.09.1992</td>
+                        <td style="background-color:green">06.09.2017</td>
+                        <td>777 456 234</td>
+                        <td>Na okraji</td>
+                    </tr>
+                    <tr>
+                        <td>Chistinavichi</td>
+                        <td>Igor</td>
+                        <td>
+                            Bussines visa
+                            Czech Republic
+                        </td>
+                        <td>male</td>
+                        <td>01.04.1995</td>
+                        <td style="background-color:green">26.03.2017</td>
+                        <td>777 345 234</td>
+                        <td>Radlicka</td>
+                    </tr>
+                    <tr>
+                        <td>Nikonenko</td>
+                        <td>Andrej</td>
+                        <td>
+                            Work visa
+                            Czech Republic
+                        </td>
+                        <td>male</td>
+                        <td>23.01.1995</td>
+                        <td style="background-color:green">26.01.2017</td>
+                        <td>777 345 678</td>
+                        <td>Konstantinova</td>
+                    </tr>
+                    <tr>
+                        <td>Savchenko</td>
+                        <td>Mykola</td>
+                        <td>
+                            Student visa
+                            Czech Republic
+                        </td>
+                        <td>male</td>
+                        <td>01.04.1995</td>
+                        <td style="background-color:green">26.09.2017</td>
+                        <td>608 092 608</td>
+                        <td>Thakurova</td>
+                    </tr>
+                </table>
+				</section>
+			<p>
+				&lt;xsl:for-each&gt;, &lt;xsl:sort&gt;, &lt;xsl:choose&gt; were used to obtain the desired result.
+			</p>
+		<br>
+		<h3><a id="conclusion">Conclusion</a></h3>
+			<p>
+            In conclusion, during making the project I've practised new technologies, that I've learned from lectures. The topic of the project could be developed and implemented in real world, as e-government service.
+			</p>
+	</article>
+	<br>
+	<br>
+	<footer>
+		<p>
+			Markup Languages Project 2017 by Viktoriia Pukha.©
+		</p>
+	</footer>
+</body>
+</html>

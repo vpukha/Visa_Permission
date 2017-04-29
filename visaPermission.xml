@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<applications xsi:noNamespaceSchemaLocation="applicationRFM.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<applicant id="280420171">
+		<office>
+			<country type="CZE">Czech Republic</country>
+			<city>Prague</city>
+		</office>
+		<gender>male</gender>
+		<firstname>Mykola</firstname>
+		<lastname>Savchenko</lastname>
+		<additionalname>Olexandrovich</additionalname>
+		<dateOfbirth>01.04.1995</dateOfbirth>
+		<full_placeofbirth>
+			<country type="UKR">Ukraine</country>
+			<region>Poltava</region>
+			<district>Myrhorod</district>
+			<city>Khorol</city>
+		</full_placeofbirth>
+		<nationality type="UKR">Ukraine</nationality>
+		<changesofName type="notnecessary">
+			<firstname></firstname>
+			<lastname></lastname>
+			<middlename></middlename>
+			<year></year>
+			<place></place>
+		</changesofName>
+		<picture type="notnecessary">myPhoto.jpg</picture>
+		<placeofRegistration>
+			<index>36700</index>
+			<country type="UKR">Ukraine</country>
+			<locality>Myrhorod</locality>
+			<street>Kharkivka</street>
+			<buildingNumber>76</buildingNumber>
+			<flatNumber>1</flatNumber>
+			<phoneNumber>8 093 662 39 56</phoneNumber>
+			<citizenship type="UKR">Ukraine</citizenship>
+			<second_citizenship></second_citizenship>
+		</placeofRegistration>
+		<temporaryRegistration>
+			<index>16000</index>
+			<country type="CZE">Czech Republic</country>
+			<locality>Dejvicka</locality>
+			<street>Thakurova</street>
+			<buildingNumber>550</buildingNumber>
+			<flatNumber>23</flatNumber>
+			<phoneNumber>608 092 608</phoneNumber>
+		</temporaryRegistration>
+		<IDtype>
+			<document type="pass">abroad passport</document>
+			<series>EK</series>
+			<number>78629384</number>
+			<startFrom>28.07.2013</startFrom>
+		</IDtype>
+		<purposeOfstay>
+			<purposeOfstay variant="23V">Student visa</purposeOfstay>
+			<country type="CZE">Czech Republic</country>
+		</purposeOfstay>
+		<IDforAbroad>
+			<number>78629384</number>
+			<startFrom>28.07.2013</startFrom>
+			<issuedBY>UMFS</issuedBY>
+		</IDforAbroad>
+		<purposeDocument type="school">
+			<startYearM>09.2017</startYearM>
+			<endYearM>09.2020</endYearM>
+			<position>Student</position>
+			<name>CZU</name>
+			<address>
+				<street>Kamycka</street>
+				<buildingNumber>59</buildingNumber>
+				<index>16500</index>
+			</address>
+		</purposeDocument>
+		<purposeIsProofed proofed="Yes">
+			<dateOfdoc>26.09.2017</dateOfdoc>
+			<phoneNumber>420 745 264 738</phoneNumber>
+		</purposeIsProofed>
+		<restrictions>
+			<secretInformation>No</secretInformation>
+			<contractObligations>No</contractObligations>
+			<defendant>No</defendant>
+			<courtObligations>No</courtObligations>
+		</restrictions>
+	</applicant>
+    <applicant id="280420172">
+        <office>
+            <country type="CZE">Czech Republic</country>
+            <city>Prague</city>
+        </office>
+        <gender>female</gender>
+        <firstname>Elizaveta</firstname>
+        <lastname>Butenko</lastname>
+        <additionalname>Vasilenko</additionalname>
+        <dateOfbirth>23.09.1992</dateOfbirth>
+        <full_placeofbirth>
+            <country type="BY">Belarus</country>
+            <region>Kapitol</region>
+            <district>Shelkovo</district>
+            <city>Minsk</city>
+        </full_placeofbirth>
+        <nationality type="BY">Belarusian</nationality>
+        <changesofName type="notnecessary">
+            <firstname></firstname>
+            <lastname></lastname>
+            <middlename></middlename>
+            <year></year>
+            <place></place>
+        </changesofName>
+        <picture type="notnecessary">newPhoto.jpg</picture>
+        <placeofRegistration>
+            <index>13098</index>
+            <country type="BY">Belarus</country>
+            <locality>Minsk</locality>
+            <street>Dneprovskaya</street>
+            <buildingNumber>45</buildingNumber>
+            <flatNumber>34A</flatNumber>
+            <phoneNumber>567 34 563 77</phoneNumber>
+            <citizenship type="BY">Belarus</citizenship>
+            <second_citizenship></second_citizenship>
+        </placeofRegistration>
+        <temporaryRegistration>
+            <index>16006</index>
+            <country type="CZE">Czech Republic</country>
+            <locality>Petriny</locality>
+            <street>Na okraji</street>
+            <buildingNumber>34</buildingNumber>
+            <flatNumber>2</flatNumber>
+            <phoneNumber>777 456 234</phoneNumber>
+        </temporaryRegistration>
+        <IDtype>
+            <document type="pass">abroad passport</document>
+            <series>PA</series>
+            <number>4385748</number>
+            <startFrom>2012</startFrom>
+        </IDtype>
+        <purposeOfstay>
+            <purposeOfstay variant="23V">Student visa</purposeOfstay>
+            <country type="CZE">Czech Republic</country>
+        </purposeOfstay>
+        <IDforAbroad>
+            <number>4385748</number>
+            <startFrom>28.07.2012</startFrom>
+            <issuedBY>BLGM</issuedBY>
+        </IDforAbroad>
+        <purposeDocument type="school">
+            <startYearM>06.2017</startYearM>
+            <endYearM>09.2020</endYearM>
+            <position>Student</position>
+            <name>CVUT</name>
+            <address>
+                <street>Zikova</street>
+                <buildingNumber>1903/4</buildingNumber>
+                <index>16000</index>
+            </address>
+        </purposeDocument>
+        <purposeIsProofed proofed="Yes">
+            <dateOfdoc>06.09.2017</dateOfdoc>
+            <phoneNumber>777 564 567</phoneNumber>
+        </purposeIsProofed>
+        <restrictions>
+            <secretInformation>No</secretInformation>
+            <contractObligations>No</contractObligations>
+            <defendant>No</defendant>
+            <courtObligations>No</courtObligations>
+        </restrictions>
+    </applicant>
+    <applicant id="280420173">
+        <office>
+            <country type="CZE">Czech Republic</country>
+            <city>Prague</city>
+        </office>
+        <gender>male</gender>
+        <firstname>Andrej</firstname>
+        <lastname>Nikonenko</lastname>
+        <additionalname>Dmitrovych</additionalname>
+        <dateOfbirth>23.01.1995</dateOfbirth>
+        <full_placeofbirth>
+            <country type="RUS">Russia</country>
+            <region>Moskva</region>
+            <district>Moskva</district>
+            <city>Podmoskove</city>
+        </full_placeofbirth>
+        <nationality type="RUS">Russian</nationality>
+        <changesofName type="notnecessary">
+            <firstname></firstname>
+            <lastname></lastname>
+            <middlename></middlename>
+            <year></year>
+            <place></place>
+        </changesofName>
+        <picture type="notnecessary">new234.jpg</picture>
+        <placeofRegistration>
+            <index>56342</index>
+            <country type="RUS">Russian</country>
+            <locality>Krasnoyarsk</locality>
+            <street>Lipova</street>
+            <buildingNumber>78</buildingNumber>
+            <flatNumber>98</flatNumber>
+            <phoneNumber>345 67 89</phoneNumber>
+            <citizenship type="RUS">Russia</citizenship>
+            <second_citizenship></second_citizenship>
+        </placeofRegistration>
+        <temporaryRegistration>
+            <index>23456</index>
+            <country type="CZE">Czech Republic</country>
+            <locality>Chodov</locality>
+            <street>Konstantinova</street>
+            <buildingNumber>45</buildingNumber>
+            <flatNumber>11</flatNumber>
+            <phoneNumber>777 345 678</phoneNumber>
+        </temporaryRegistration>
+        <IDtype>
+            <document type="pass">abroad passport</document>
+            <series>RO</series>
+            <number>426577</number>
+            <startFrom>01.05.2011</startFrom>
+        </IDtype>
+        <purposeOfstay>
+            <purposeOfstay variant="12W">Work visa</purposeOfstay>
+            <country type="CZE">Czech Republic</country>
+        </purposeOfstay>
+        <IDforAbroad>
+            <number>245345</number>
+            <startFrom>03.01.2010</startFrom>
+            <issuedBY>RMSD</issuedBY>
+        </IDforAbroad>
+        <purposeDocument type="work contract">
+            <startYearM>01.2017</startYearM>
+            <endYearM>09.2020</endYearM>
+            <position>Support Engineer</position>
+            <name>Oracle Czech sro</name>
+            <address>
+                <street>U Trezorky</street>
+                <buildingNumber>91</buildingNumber>
+                <index>15800</index>
+            </address>
+        </purposeDocument>
+        <purposeIsProofed proofed="Yes">
+            <dateOfdoc>26.01.2017</dateOfdoc>
+            <phoneNumber>420 608 342 353</phoneNumber>
+        </purposeIsProofed>
+        <restrictions>
+            <secretInformation>No</secretInformation>
+            <contractObligations>No</contractObligations>
+            <defendant>No</defendant>
+            <courtObligations>No</courtObligations>
+        </restrictions>
+    </applicant>
+<applicant id="280420174">
+    <office>
+        <country type="CZE">Czech Republic</country>
+        <city>Olomouc</city>
+    </office>
+    <gender>famale</gender>
+    <firstname>Anna</firstname>
+    <lastname>Abdullaeva</lastname>
+    <additionalname>none</additionalname>
+    <dateOfbirth>12.05.1990</dateOfbirth>
+    <full_placeofbirth>
+        <country type="UZB">Uzbekistan</country>
+        <region>Tashkent</region>
+        <district>Tashkent</district>
+        <city>Tashkent</city>
+    </full_placeofbirth>
+    <nationality type="RUS">Russia</nationality>
+    <changesofName type="notnecessary">
+        <firstname></firstname>
+        <lastname></lastname>
+        <middlename></middlename>
+        <year></year>
+        <place></place>
+    </changesofName>
+    <picture type="notnecessary">myPhoto.jpg</picture>
+    <placeofRegistration>
+        <index>67890</index>
+        <country type="RUS">Russia</country>
+        <locality>Ekatirinburg</locality>
+        <street>Lermontova</street>
+        <buildingNumber>90</buildingNumber>
+        <flatNumber>67</flatNumber>
+        <phoneNumber>697 234 678</phoneNumber>
+        <citizenship type="RUS">Russian</citizenship>
+        <second_citizenship></second_citizenship>
+    </placeofRegistration>
+    <temporaryRegistration>
+        <index>13000</index>
+        <country type="CZE">Czech Republic</country>
+        <locality>Zizkov</locality>
+        <street>Vlkova</street>
+        <buildingNumber>801</buildingNumber>
+        <flatNumber>29</flatNumber>
+        <phoneNumber>777 456 234</phoneNumber>
+    </temporaryRegistration>
+    <IDtype>
+        <document type="pass">abroad passport</document>
+        <series>RU</series>
+        <number>346567</number>
+        <startFrom>28.07.2013</startFrom>
+    </IDtype>
+    <purposeOfstay>
+        <purposeOfstay variant="23V">Work visa</purposeOfstay>
+        <country type="CZE">Czech Republic</country>
+    </purposeOfstay>
+    <IDforAbroad>
+        <number>6787868</number>
+        <startFrom>09.01.2010</startFrom>
+        <issuedBY>UMFS</issuedBY>
+    </IDforAbroad>
+    <purposeDocument type="school">
+        <startYearM>01.2010</startYearM>
+        <endYearM>01.2020</endYearM>
+        <position>CEO</position>
+        <name>SAP</name>
+        <address>
+            <street>Bucharova</street>
+            <buildingNumber>13</buildingNumber>
+            <index>158</index>
+        </address>
+    </purposeDocument>
+    <purposeIsProofed proofed1="No">
+        <dateOfdoc>21.09.2010</dateOfdoc>
+        <phoneNumber>420 678 234 123</phoneNumber>
+    </purposeIsProofed>
+    <restrictions>
+        <secretInformation>No</secretInformation>
+        <contractObligations>No</contractObligations>
+        <defendant>No</defendant>
+        <courtObligations>No</courtObligations>
+    </restrictions>
+</applicant>
+<applicant id="280420175">
+    <office>
+        <country type="CZE">Czech Republic</country>
+        <city>Prague</city>
+    </office>
+    <gender>male</gender>
+    <firstname>Igor</firstname>
+    <lastname>Chistinavichi</lastname>
+    <additionalname>Igorovich</additionalname>
+    <dateOfbirth>01.04.1995</dateOfbirth>
+    <full_placeofbirth>
+        <country type="MDA">Moldova</country>
+        <region>Chisinau</region>
+        <district>Chisinau</district>
+        <city>Chisinau</city>
+    </full_placeofbirth>
+    <nationality type="MDA">Moldova</nationality>
+    <changesofName type="notnecessary">
+        <firstname></firstname>
+        <lastname></lastname>
+        <middlename></middlename>
+        <year></year>
+        <place></place>
+    </changesofName>
+    <picture type="notnecessary">photo34.jpg</picture>
+    <placeofRegistration>
+        <index>56789</index>
+        <country type="MDA">Moldova</country>
+        <locality>Chisinau</locality>
+        <street>Dosoftei</street>
+        <buildingNumber>678</buildingNumber>
+        <flatNumber>23</flatNumber>
+        <phoneNumber>5 345 567 23 26</phoneNumber>
+        <citizenship type="MDA">Moldova</citizenship>
+        <second_citizenship></second_citizenship>
+    </placeofRegistration>
+    <temporaryRegistration>
+        <index>15000</index>
+        <country type="CZE">Czech Republic</country>
+        <locality>Smichov</locality>
+        <street>Radlicka</street>
+        <buildingNumber>233/1B</buildingNumber>
+        <flatNumber>67</flatNumber>
+        <phoneNumber>777 345 234</phoneNumber>
+    </temporaryRegistration>
+    <IDtype>
+        <document type="pass">abroad passport</document>
+        <series>OK</series>
+        <number>3564477</number>
+        <startFrom>12.11.2012</startFrom>
+    </IDtype>
+    <purposeOfstay>
+        <purposeOfstay variant="23V">Bussines visa</purposeOfstay>
+        <country type="CZE">Czech Republic</country>
+    </purposeOfstay>
+    <IDforAbroad>
+        <number>3564477</number>
+        <startFrom>28.07.2012</startFrom>
+        <issuedBY>MCMI</issuedBY>
+    </IDforAbroad>
+    <purposeDocument type="bussines">
+        <startYearM>03.2017</startYearM>
+        <endYearM>04.2021</endYearM>
+        <position>Information Technology</position>
+        <name>Freelancer</name>
+        <address>
+            <street>Smichov</street>
+            <buildingNumber>59</buildingNumber>
+            <index>15000</index>
+        </address>
+    </purposeDocument>
+    <purposeIsProofed proofed="Yes">
+        <dateOfdoc>26.03.2017</dateOfdoc>
+        <phoneNumber>420 608 085 345</phoneNumber>
+    </purposeIsProofed>
+    <restrictions>
+        <secretInformation>No</secretInformation>
+        <contractObligations>No</contractObligations>
+        <defendant>No</defendant>
+        <courtObligations>No</courtObligations>
+    </restrictions>
+</applicant>
+</applications>

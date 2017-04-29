@@ -1,0 +1,226 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="applications">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="applicant" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="office">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="city"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element type="xs:string" name="firstname"/>
+              <xs:element type="xs:string" name="lastname"/>
+              <xs:element type="xs:string" name="additionalname"/>
+              <xs:element type="xs:string" name="dateOfbirth"/>
+              <xs:element name="full_placeofbirth">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="region"/>
+                    <xs:element type="xs:string" name="district"/>
+                    <xs:element type="xs:string" name="city"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="nationality">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="type" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="changesofName">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="firstname"/>
+                    <xs:element type="xs:string" name="lastname"/>
+                    <xs:element type="xs:string" name="middlename"/>
+                    <xs:element type="xs:string" name="year"/>
+                    <xs:element type="xs:string" name="place"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="picture">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="type" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="placeofRegistration">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="index"/>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="locality"/>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:string" name="buildingNumber"/>
+                    <xs:element type="xs:string" name="flatNumber"/>
+                    <xs:element type="xs:string" name="phoneNumber"/>
+                    <xs:element name="citizenship">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="second_citizenship"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="temporaryRegistration">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="index"/>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="locality"/>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:string" name="buildingNumber"/>
+                    <xs:element type="xs:string" name="flatNumber"/>
+                    <xs:element type="xs:string" name="phoneNumber"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="IDtype">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="document">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="series"/>
+                    <xs:element type="xs:int" name="number"/>
+                    <xs:element type="xs:string" name="startFrom"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="purposeOfstay">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="purposeOfstay">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="variant" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="IDforAbroad">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="number"/>
+                    <xs:element type="xs:string" name="startFrom"/>
+                    <xs:element type="xs:string" name="issuedBY"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="purposeDocument">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:float" name="startYearM"/>
+                    <xs:element type="xs:string" name="endYearM"/>
+                    <xs:element type="xs:string" name="position"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="street"/>
+                          <xs:element type="xs:string" name="buildingNumber"/>
+                          <xs:element type="xs:int" name="index"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="purposeIsProofed">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="dateOfdoc"/>
+                    <xs:element type="xs:string" name="phoneNumber"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="proofed" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="restrictions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="secretInformation"/>
+                    <xs:element type="xs:string" name="contractObligations"/>
+                    <xs:element type="xs:string" name="defendant"/>
+                    <xs:element type="xs:string" name="courtObligations"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:int" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
